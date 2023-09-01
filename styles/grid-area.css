@@ -18,7 +18,7 @@
     grid-area: footer;
 }
 .header, .adv, .main, .nav, .footer, .aside{
-    background-color:rgb(251, 251, 84);
+    background-color:rgb(245, 245, 136);
    padding: 10px;
    border: 2px solid rgb(254, 167, 105);
    border-radius: 5px;
