@@ -1,4 +1,4 @@
-/* define grid areas */
+/* define grid areas      Another way of CSS styles*/
 .header{
     grid-area: header;
 }
@@ -24,7 +24,7 @@
    border-radius: 5px;
 }
 
-/* grid layout related styles */
+/* ***grid layout related styles*** */
 .grid-container{
     display: grid;
     gap: 20px;
