@@ -8,7 +8,7 @@ img{
 }
 /* 1. */
 .row{
-    height: 400px;
+    /* height: 400px; */
     margin-bottom: 5px;
 }
 /* 3., 7. */
@@ -41,4 +41,22 @@ img{
 /* 9. */
 .third-row > div{
     flex: 1;
+}
+
+/* responsive part */
+/* 10. */
+@media  screen and (max-width:576px) {
+    .second-row, .third-row{
+        flex-direction: column;
+    } 
+    .third-row-second-container{
+       
+        grid-template-columns: repeat(1,1fr);
+        gap: 5px;
+    }
+}
+@media screen and (min-width: 577px) {
+    .row{
+        height: 400px;
+    }
 }
