@@ -1,0 +1,44 @@
+/* 2. */
+img{
+    height: 100%;
+    width: 100%;
+}
+.title{
+    text-align: center;
+}
+/* 1. */
+.row{
+    height: 400px;
+    margin-bottom: 5px;
+}
+/* 3., 7. */
+.second-row, .third-row{
+    display: flex;
+    gap: 5px;
+}
+/* 4. */
+/* Flex korar por sb div same space niye nibe. age first duita beshi jayga niche. lastta kom.! */
+.second-row > div {
+    flex: 1;
+}
+/* 5. */
+.second-row-third-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+/* 6. */
+.second-row-third-container div{
+    /* 1. height: 195px; */
+    height: calc(50% - 5px/2); /* 2. calculate kore height fixed */
+}
+/* 8. */
+.third-row-second-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
+/* 9. */
+.third-row > div{
+    flex: 1;
+}
